@@ -1,0 +1,347 @@
+/* ここから下に記載していく */
+@charset "UTF-8"; 
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: #333333;
+    font-size: 1.6rem;
+    max-width: 1200px;
+    font-family:"游ゴシック",sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;   
+}
+
+p {
+    line-height: 1.8;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* navi */
+
+.nav1{
+    display: flex;
+    text-transform: uppercase;
+    float: right;
+}
+
+.nav2{
+    margin: 50px 25px;
+    font-size: 2.1rem;
+}
+
+.navimg{
+    width: 400px;
+    margin: 20px 0 20px 30px;
+}
+
+
+/* hero-image */
+
+.hero-image {
+    position: relative;
+}
+
+.hero-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate3d(-50%,-50%,0) ;
+}
+
+.hero-text1{
+    color: #fff;
+    font-size: 4.5rem;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.hero-text2{
+    color: #fff;
+    font-size: 3rem;
+    white-space: nowrap;
+}
+
+
+/* about */
+.about{
+    font-size: 2.4rem;
+    color: yellow;
+    text-align: center;
+    margin: 80px 0 30px 0;
+    font-weight: bold;
+}
+
+.text-1{
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 0 0 40px ;
+}
+
+.text-2{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.text-3{
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 0 0 80px;
+}
+
+.jptitle{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 0 60px;;
+}
+
+.a1{
+    display: flex;
+    margin: 0 0 60px;
+}
+
+
+
+/* course */
+.course{
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 30px 0;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+}
+
+.container1 img {
+    margin-right: 50px; 
+    width: 50%;
+}
+
+.c-text1 {
+    display: flex; 
+    flex-direction: column; 
+    width: 430px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+}
+
+.container2 img {
+    margin-left: 50px; 
+    width: 50%;
+}
+
+.c-text2 {
+    display: flex; 
+    flex-direction: column; 
+    width: 430px;
+    margin: 0 0 0 150px;
+}
+
+.c-text3{
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.c-text4{
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 0 0 60px 0;
+}
+
+.c-title1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0 0 40px 0;
+}
+
+.c-title2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0 0 40px 0;
+}
+
+/* news */
+.n1{
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   max-width: 100%;
+
+}
+
+.n2{
+    width: 300px;
+    margin: 0 15px;
+}
+
+.date{
+    margin: 30px 0 24px 0;
+}
+
+.hover-img{
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hover-img:hover {
+    opacity: 0.6;
+}
+
+.btn1{
+    display: block;
+    width: 300px;
+    margin: 60px auto 120px auto;
+    padding: 21px 0;
+    background-color: rgba(241, 222, 6, 0.863);
+    color: white;
+    font-size: 1.8rem;
+    border: none;
+    font-family:"游ゴシック",sans-serif;
+    text-align: center;
+}
+
+/* access */
+.access1{
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 60px 0 30px 0;
+}
+
+.access2{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.if{
+    margin: 0 0 60px 0;
+}
+.th1 {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    border: none;
+    height: 40px;
+}
+
+.bg-color{
+    background-color: #fafafa;
+}
+
+
+/* contact */
+.con1{
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 60px 0 30px 0;
+}
+  
+.con2{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 0 60px 0;   
+}
+
+.con-text1{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.con-text2{
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.con-text3{
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 0 0 70px 0;
+}
+
+.con-text4{
+    font-size: 1.6rem;
+    padding: 0 64px 0 16px ;
+    vertical-align: middle;
+}
+
+.con-text5{
+    font-size: 1.6rem;
+    padding: 8px 64px 0 16px ;
+    caption-side: bottom;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.tr1{
+    border-top: 2px solid #bfbfbf;
+    border-bottom: 2px solid #bfbfbf;
+    text-align-last: left;
+}
+
+.td1{
+    border-left: 2px solid #bfbfbf;
+    width: 400px;
+}
+
+.ftext{
+    margin: 8px 0 8px 8px;
+    font-size: 1.6rem;
+    width: 328px;
+    height: 36px;
+}
+
+textarea{
+    vertical-align:top;
+    margin: 0 0 8px 8px;
+    font-size: 1.6rem;
+    width: 328px;
+}
+
+.btn2{
+    display: block;
+    width: 300px;
+    margin: 30px auto 140px auto;
+    padding: 21px 0;
+    background-color: rgba(241, 222, 6, 0.863);
+    color: white;
+    font-size: 1.8rem;
+    border: none;
+    font-family:"游ゴシック",sans-serif;
+}
+
+/* footer */
+
+.footer{
+    background-color: #707070;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.copyrights{
+    color: #fff;
+}
